@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './SignUpForm.module.css';
 
 class SignUpForm extends Component {
   constructor(props) {
@@ -54,9 +55,10 @@ class SignUpForm extends Component {
 
   render() {
     return (
-      <form className='sign-up-form'>
-        <h2>Sign in!</h2>
-        <div className='form-group'>
+      <form className={styles.signUpContainer}>
+        <h2>Sign up!</h2>
+        <div className={styles.loginIcon}></div>
+        <div>
           <label htmlFor='email'>enter email</label>
           <input
             type='email'
@@ -66,7 +68,7 @@ class SignUpForm extends Component {
             onChange={event => this.handleUserInput(event)}
           />
         </div>
-        <div className='form-group'>
+        <div>
           <label htmlFor='password'>enter password</label>
           <input
             type='password'
