@@ -1,13 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+
 import SignUpForm from './components/signUpForm/SignUpForm';
+import NavBar from './components/navBar/NavBar';
 
 function App() {
   return (
-    <div className='App'>
+    <Fragment>
+      <NavBar />
       <SignUpForm />
-    </div>
+    </Fragment>
   );
 }
 

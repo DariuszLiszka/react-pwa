@@ -1,0 +1,31 @@
+.NavContainer {
+  /* position: fixed; */
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 32px;
+  border: dashed 2px;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  border-bottom: dashed 2px;
+}
