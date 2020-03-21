@@ -1,10 +1,13 @@
-body {
+html {
+  height: 100%;
   background: rgb(195, 34, 56);
   background: linear-gradient(
     0deg,
     rgba(195, 34, 56, 0.022846638655462215) 0%,
     rgba(23, 23, 22, 0.35057773109243695) 100%
   );
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .signUpContainer {
   color: white;
